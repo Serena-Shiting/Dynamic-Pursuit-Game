@@ -55,7 +55,7 @@ void TriShip::integrate() {
 
 
 Bullet::Bullet() {
-    speed = 800;
+    speed = 1500;
     velocity = ofVec3f(0, 0, 0);
     lifespan = 1000;      // lifespan of -1 => immortal
     birthtime = 0;
